@@ -67,7 +67,7 @@ const createTalkingPerson = (name, age) => {
   this.introduce = function(them) {
       return "Hi " + them + ", my name is " + name + " and I am " + age + "!"
     };
-    return this;
+    return this; //Using this lets you access parts from all over and add more to an object like here.
 };
 
 module.exports = {

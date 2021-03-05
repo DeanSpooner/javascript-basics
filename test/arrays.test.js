@@ -36,7 +36,7 @@ describe("arrayToCSVString", () => {
     expect(arrayToCSVString(["a", "b", "c", "d"])).toEqual("a,b,c,d");
     expect(arrayToCSVString([1, 2, 3, 4, 5])).toEqual("1,2,3,4,5");
   });
-});
+}); //CSV = comma-separated values, a string that separates array elements-to-be with commas.
 
 describe("csvStringToArray", () => {
   it("converts the csv string as an array", () => {
